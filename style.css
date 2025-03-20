@@ -1,0 +1,68 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Using a sans-serif font */
+    background-color: #e8f5e9; /* Light green background */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #388e3c; /* Dark green for the heading */
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #388e3c; /* Dark green for labels */
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #c8e6c9; /* Light green border */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #66bb6a; /* Medium green on focus */
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #2e7d32; /* Dark green for result text */
+    text-align: center;
+    border: 1px solid #2e7d32; /* Dark green border */
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #c8e6c9; /* Light green background for result */
+}
